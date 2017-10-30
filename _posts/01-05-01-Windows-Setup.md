@@ -5,7 +5,7 @@ anchor:  windows_setup
 
 ## Windows Setup {#windows_setup_title}
 
-You can download the binaries from [windows.php.net/download][php-downloads]. After the extraction of PHP, it is recommended to set the [PATH][windows-path] to the root of your PHP folder (where php.exe is located) so you can execute PHP from anywhere.
+You can download the binaries from [windows.php.net/download][php-downloads]. After the extraction of PHP, it is recommended to set the [PATH][windows-path] to the root of your PHP folder (where php.exe is located) so you can execute PHP from anywhere. There is no `php.ini` in the distribution package, but you can just rename `php.ini-development` to `php.ini`. Also, in contrast to the default settings of many Linux distributions, all of the extensions are disabled by default and need to be uncommented in `php.ini`. 
 
 For learning and local development, you can use the built in webserver with PHP 5.4+ so you don't need to worry about
 configuring it. If you would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such
